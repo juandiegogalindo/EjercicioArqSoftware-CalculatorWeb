@@ -9,8 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="stylesheet" href="<%= request.getContextPath() %>/css/styles.css">
+        <title>JSP Page - Calculadora</title>
     </head>
+    <center>
+    <H1> PROYECTO CALCULADORA JSP </H1>
     <body>
         <form action="calcservlet" method="POST">
             <input type="text" name="t1">
@@ -41,5 +44,6 @@
             <input type="text" name="t11">
             <input type="submit" value="ELEV">
         </form>
+    </center>
     </body>
 </html>
