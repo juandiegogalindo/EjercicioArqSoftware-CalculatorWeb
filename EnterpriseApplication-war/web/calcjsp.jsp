@@ -13,7 +13,7 @@
         <title>JSP Page - Calculadora</title>
     </head>
     <center>
-    <H1> PROYECTO CALCULADORA JSP </H1>
+    <p> PROYECTO CALCULADORA JSP </p>
     <body>
         <form action="calcservlet" method="POST">
             <input type="text" name="t1">
